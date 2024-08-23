@@ -10,8 +10,6 @@ inputs:
     description: 'sample input'
     required: true
 outputs:
-  output1: 
-    description: 'output1'
   status: 
     description: 'status of workflow'
 runs:
