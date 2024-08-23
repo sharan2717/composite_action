@@ -25,6 +25,3 @@ runs:
       shell: bash
       run: echo "${{ inputs.input3 }}"  
 
-    - name: Run goodbye.sh
-      shell: bash
-      run: goodbye.sh
