@@ -14,19 +14,17 @@ runs:
   using: "composite"
   steps:
     - name: Step 1
-      run: echo "${{ inputs.input1 }}" 
       shell: bash
-
+      run: echo "${{ inputs.input1 }}" 
 
     - name: Step 2
-      run: echo "${{ inputs.input2 }}" 
       shell: bash
-
+      run: echo "${{ inputs.input2 }}" 
 
     - name: Step 3
-      run: echo "${{ inputs.input3 }}"  
       shell: bash
+      run: echo "${{ inputs.input3 }}"  
 
     - name: Run goodbye.sh
-      run: goodbye.sh
       shell: bash
+      run: goodbye.sh
